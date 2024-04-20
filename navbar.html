@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+ 
+
+<head>
+
+    <title>Building a Horizontal Navigation Bar</title>
+
+    <style>
+
+        * {
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+ 
+
+        body {
+
+            font-family: 'Arial', sans-serif;
+
+        }
+        
+        img {
+            width: 2%;
+            
+        }
+
+        .navbar {
+
+            display: flex;
+
+            position: sticky;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            top: 0px;
+
+            background: rgba(0, 0, 0, 0.6) url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20201215124609/Capture-300x14.PNG');
+
+            background-blend-mode: darken;
+
+            background-size: cover;
+
+            color: white;
+
+            padding: 10px 20px;
+
+        }
+ 
+
+        .nav-list {
+
+            display: flex;
+
+            list-style: none;
+
+        }
+ 
+
+        .nav-list li {
+
+            margin-right: 20px;
+
+        }
+ 
+
+        .nav-list li:last-child {
+
+            margin-right: 0;
+
+        }
+ 
+
+        .nav-list li a {
+
+            text-decoration: none;
+
+            color: white;
+
+            font-size: 18px;
+
+            transition: color 0.3s ease-in-out;
+
+        }
+ 
+
+        .nav-list li a:hover {
+
+            color: #ffd700;
+
+            /* Change the color on hover */
+
+        }
+ 
+
+        .rightNav {
+
+            text-align: right;
+
+        }
+ 
+    
+        .btn {
+
+            background-color: #ffd700;
+
+            color: #000;
+
+            border: none;
+
+            padding: 8px 12px;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+            transition: background-color 0.3s ease-in-out;
+
+        }
+ 
+
+        .btn:hover {
+
+            background-color: #000;
+
+            /* Change the background color on hover */
+
+            color: #ffd700;
+
+        }
+
+    </style>
+        <link rel="stylesheet" href="https://cdn-icons-png.flaticon.com/512/732/732221.png" />
+</head>
+ 
+
+<body>
+
+    <nav class="navbar">
+
+        <ul class="nav-list">
+
+            <li class="fas fa-heart"></li>
+
+            <img src="https://cdnl.iconscout.com/lottie/premium/preview/four-balls-preloaders-3937286-3343276.png?f=webp">
+
+            <li><a href="#home">Office</a></li>
+
+            <li><a href="#about">Windows</a></li>
+
+            <li><a href="#services">Support</a></li>
+
+            <li><a href="#contact">Microsoft 365</a></li>
+
+            <img src="https://cdn-icons-png.flaticon.com/512/9293/9293128.png">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXqJAG6oTAYw3CR6WveNgniq6t7o79o13wH8FPClG7Jg&s">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrvQEG5FXCgMle9Sv3q0aYIjq0dGxtbz2Z0jWvSrtg1w&s">
+        </ul>
+
+        
+
+    </nav>
+
+</body>
+ 
+
+</html>
